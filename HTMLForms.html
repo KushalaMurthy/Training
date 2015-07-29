@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <!--The <form> Element:
+        HTML forms are used to collect user input.
+        The <form> element defines an HTML form.
+        HTML forms contain form elements.
+        Form elements are different types of input elements, checkboxes, radio buttons, submit buttons, and more.
+    -->
+    <form>
+        <!--The <input> Element:
+            The <input> element is the most important form element.
+            The <input> element has many variations, depending on the type attribute.
+
+            (1)Text Input:
+            <input type="text"> defines a one-line input field for text input.
+        -->
+        First name:<br>
+        <input type="text" name="firstname">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname">
+        <br>
+        <!--(2)Radio Button Input:
+            <input type="radio"> defines a radio button.
+            Radio buttons let a user select ONE of a limited number of choices.
+        -->
+        <input type="radio" name="sex" value="male" checked> Male
+        <br>
+        <input type="radio" name="sex" value="female"> Female
+        <br>
+        <!--(3)The Submit Button:
+            <input type="submit"> defines a button for submitting a form to a form-handler.
+            The form-handler is typically a server page with a script for processing input data.
+            The form-handler is specified in the form's action attribute.-->
+        <input type="submit" value="SUBMIT">
+
+    </form>
+</body>
+</html>
